@@ -5,10 +5,10 @@
   "private": true,
   "scripts": {
     "clean": "ionic-app-scripts clean",
-    "build": "ionic-app-scripts build",
+    "build": "ionic-app-scripts build && cordova-hcp build",
     "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve",
-    "deploy-live":"./deployLive.sh"
+    "deploy-live": "./deployLive.sh"
   },
   "dependencies": {
     "@angular/common": "2.2.1",
@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "1.0.0",
+    "cordova-hot-code-push-cli": "^1.1.1",
     "typescript": "2.0.9"
   },
   "cordovaPlugins": [

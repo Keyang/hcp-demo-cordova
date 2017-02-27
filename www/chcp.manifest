@@ -81,11 +81,11 @@
   },
   {
     "file": "build/main.js",
-    "hash": "7b9b0008ebe9cecbe1e5279fe4660b9a"
+    "hash": "17921a67e5945cc93b40efe77a7ef972"
   },
   {
     "file": "build/main.js.map",
-    "hash": "ed4349917aa1a94ccdcf28d01eea389b"
+    "hash": "ceccc1f2b9783317018587c717e88f51"
   },
   {
     "file": "build/polyfills.js",
@@ -97,7 +97,7 @@
   },
   {
     "file": "index.html",
-    "hash": "34a9329ac41d69562d0d7f731315b5be"
+    "hash": "c458dde46ec60428439eca6a933d712b"
   },
   {
     "file": "manifest.json",
