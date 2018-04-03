@@ -34,12 +34,21 @@ export class HomePage {
 
   calc() {
     const total = parseFloat(this.num1) + parseFloat(this.num2);
-    console.log(`Math result ${total}`);
-    this.alertCtrl.create({
-      title: 'Math result',
-      subTitle: `${this.num1} + ${this.num2} = ${total}`,
-      buttons: ['OK']
-    }).present();
+    if (isNaN(total)) {
+      this.alertCtrl.create({
+        title: 'Oops, Wrong number',
+        subTitle: `The input number seems wrong. num1: ${this.num1} num2: ${this.num2}`,
+        buttons: ['OK']
+      }).present();
+      console.error(`The input number seems wrong. num1: ${this.num1} num2: ${this.num2}`);
+    } else {
+      console.log(`Math result ${total}`);
+      this.alertCtrl.create({
+        title: 'Math result',
+        subTitle: `${this.num1} + ${this.num2} = ${total}`,
+        buttons: ['OK']
+      }).present();
+    }
   }
 
 }
