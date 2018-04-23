@@ -81,11 +81,11 @@
   },
   {
     "file": "build/main.js",
-    "hash": "d09b0151d77dcbce3f26af9e4d3a099e"
+    "hash": "eb4c8b19551163e7ec8e650327c91497"
   },
   {
     "file": "build/main.js.map",
-    "hash": "11e16e66569fa9d6a6f824334e876afc"
+    "hash": "5bce9a6ae93b620add8cb3712af517d2"
   },
   {
     "file": "build/polyfills.js",
